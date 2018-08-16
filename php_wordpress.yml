@@ -3,9 +3,14 @@ groups:
   failed-tests:
     conditions:
     - "'ci/circleci: build' in statuses.failed"
+    reviews:
+      required: 1
+      request: 1
+      request_order: given
     reviewers:
       users:
       - davegaeddert
+      - joelgaeddert
   
   # should have been automerged by now
 #  dependencies:
