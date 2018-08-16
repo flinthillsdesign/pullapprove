@@ -1,0 +1,17 @@
+version: 3
+groups:
+  failed-tests:
+    conditions:
+    - "'ci/circleci: build' in statuses.failed"
+    reviewers:
+      users:
+      - davegaeddert
+  
+  # should have been automerged by now
+#  dependencies:
+#    conditions:
+#    - "author is 'dependencies'"
+#    - "created_at < date('1 day ago')"
+#    reviewers:
+#      users:
+#      - davegaeddert
