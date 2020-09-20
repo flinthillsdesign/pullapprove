@@ -1,5 +1,5 @@
 custom-checks:
   wordpress-tagline:
-  enabled: true
-  url_matches: ".*"
-  text_matches: "!Just another WordPress site"
+    enabled: true
+    url_matches: ".*"
+    text_matches: "!Just another WordPress site"
