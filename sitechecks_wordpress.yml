@@ -1,5 +1,11 @@
 custom-checks:
   wordpress-tagline:
-    enabled: true
-    url_matches: ".*"
     text_matches: "!Just another WordPress site"
+  typekit:
+    text_matches: "!typekit"
+  fhd-link:
+    text_matches: "https://flinthillsdesign.com"
+  fhdwd-link:
+    text_matches: "https://www.flinthillswebdesign.com"
+  fhdlabs:
+    text_matches: "!fhdlabs.com"
