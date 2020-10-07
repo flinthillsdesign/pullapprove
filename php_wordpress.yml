@@ -6,7 +6,7 @@ pullapprove_conditions:
 groups:
   failed-tests:
     conditions:
-    - "'ci/circleci: build' in statuses.failed"
+    - "'ci' in checks.failed"
     reviews:
       required: 1
       request: 1
