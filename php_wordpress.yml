@@ -6,7 +6,7 @@ pullapprove_conditions:
 groups:
   failed-tests:
     conditions:
-    - "'ci' in checks.failed"
+    - "'ci' in check_runs.failed"
     reviews:
       required: 1
       request: 1
